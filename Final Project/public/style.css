@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+@font-face{
+  font-family: Ewert-Regular;
+  src: url(Ewert-Regular.ttf);
+}
+
+html{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: 'Open Sans', serif;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url(background.png);
+}
+
+header{
+  margin: auto;
+  width: 55%;
+  min-width: 900px;
+  text-align: center;
+}
+
+.head{
+  width: 100%;
+  background-color: #582176;
+  overflow: hidden;
+  box-shadow: 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+  background-color: #582176;
+  overflow: hidden;
+  height: 100px;
+  width: 100%;
+  float: left;
+  bottom: 0;
+}
+
+header svg{
+  margin-top: -10px;
+  float: left;
+}
+
+header svg:hover{
+  background-color: #754192;
+}
+
+header li{
+  display: inline;
+  list-style: none;
+}
+
+header ul{
+  text-align: right;
+}
+
+header ul a{
+  color: white;
+  padding: 17px 20px;
+  text-decoration: none;
+}
+
+header ul a:hover{
+  background-color: #CABED1;
+  color: black;
+  padding: 17px 20px;
+}
+
+h5{
+  text-align: center;
+  color: white;
+  font-family: 'Arial';
+}
+
+#countdown{
+  margin-top: 40px;
+  margin-bottom: -20px;
+}
+
+.content{
+  margin: 0% auto;
+  background-color: #582176;
+  margin-top: 50px;
+  margin-bottom: 100px;
+  padding-bottom: 50px;
+  width: 55%;
+  min-height: 636px;
+  min-width: 900px;
+  box-shadow: 15px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+}
+
+.content svg{
+  display: block;
+  margin: auto;
+  max-width: 100%;
+}
+
+.content .desc{
+  color: white;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: -30px;
+}
+
+.buttonInside{
+  background-color: #DAAC5A;
+  color: white;
+  min-width: 100px;
+  max-width: 250px;
+  display: inline-block;
+  padding: 0px 10px;
+  text-align: center;
+  margin: auto;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.buttonInside:hover{
+  background-color: #B18129;
+  color: black;
+  box-shadow: none;
+}
+
+.buttonInside p{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.button{
+  text-decoration: none;
+}
+
+.button:hover{
+  margin-left: 10px;
+}
+
+.main{
+  background-color: #754192;
+  margin-top: 70px;
+  width: 90%;
+  margin-left: 5%;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.mainInside{
+  padding-bottom: 50px;
+}
+
+.mainInside h1{
+  padding-top: 20px;
+}
+
+.mainInside h3{
+  text-align: left;
+  margin-left: 5%;
+}
+
+.mainInside h4{
+  text-align: left;
+  margin-left: 5%;
+}
+
+.mainInside p{
+  margin: 0% 5%;
+  text-indent: 20px;
+  text-align: justify;
+}
+
+.space{
+  height: 50px;
+}
+
+.smash{
+  max-width: 90%;
+  text-align: center;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.imageLink{
+  color: white;
+}
