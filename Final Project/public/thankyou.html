@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="style.css">
     <script type="text/javascript" src="./js/main.js"></script>
-    <title>Contact</title>
+    <title>Thank You</title>
   </head>
   <body>
     <div class="head">
@@ -28,32 +28,14 @@
       <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="900px" height="300px" viewBox="0 0 2000 500" enable-background="new 0 0 2000 500" xml:space="preserve">
         <text transform="matrix(1 0 0 1 100.6816 372.9043)" fill="#DAAC59" font-family="'Ewert-Regular'" font-size="350">contact</text>
       </svg>
-      <form name="contactForm" action="http://cgi.albany.edu/~jt449294/formmailhack.cgi" method="post">
-        <input type="hidden" name="recipient" value="uhackcontact@gmail.com">
-        <input type="hidden" name="redirect" value="http://www.albany.edu/~kb366566/final/thankyou.html">
-        <div class="inputObject">
-          Name:
-          <input id="name" class="inputField" data-identifier="value1" type="text" name="realname" placeholder="Name"><p class="errorField" id="value1"></p>
+      <h2 id="thanks">Thank You for Submitting your Form!</h2>
+      <p>We will reply as soon as we can.</p>
+      <p id="redirect">You Will Be Automatically Redirected In: </p>
+      <a id="stopRedirect" class="button">
+        <div class="buttonInside">
+          <p id="stopText">Stop</p>
         </div>
-        <br>
-        <div class="inputObject">
-          Subject:
-          <input id="subject" class="inputField" data-identifier="value2" type="text" name="subject" placeholder="Subject"><p class="errorField" id="value2"></p>
-        </div>
-        <br>
-        <div class="inputObject">
-          Email:
-          <input id="email" class="inputField" data-identifier="value3" type="email" name="email" placeholder="Email"><p class="errorField" id="value3"></p>
-        </div>
-        <br>
-        <div class="inputObject">
-          Message:
-          <textarea id="message" class="inputField" data-identifier="value4" name="message" placeholder="Enter Message"></textarea><p class="errorField" id="value4"></p>
-        </div>
-        <br>
-        <button type="submit" onclick="return validateForm()">Submit</button>
-        <button type="reset">Reset</button>
-      </form>
+      </a>
     </div>
 
     <footer>
