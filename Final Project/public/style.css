@@ -77,9 +77,26 @@ h5{
   font-family: 'Arial';
 }
 
+textarea{
+  min-height: 100px;
+  min-width: 300px;
+}
+
 #countdown{
   margin-top: 40px;
   margin-bottom: -20px;
+}
+
+.errorField{
+  margin-top: 5px;
+  color: #ff0000;
+}
+
+.inputField{
+}
+
+.inputObject{
+  display: inline;
 }
 
 .content{
